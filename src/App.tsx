@@ -1,6 +1,6 @@
 import React from 'react';
 import IMAGE from "./finalLogoRdp.png";
-import LOGO from "./logo.svg"; // Import SVG file
+
 
 // Inline SVG content
 const svgContent = (
