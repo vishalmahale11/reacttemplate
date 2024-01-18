@@ -1,6 +1,5 @@
-import React from 'react';
+import React from "react";
 import IMAGE from "./finalLogoRdp.png";
-
 
 // Inline SVG content
 const svgContent = (
@@ -15,10 +14,11 @@ export const App = () => {
   return (
     <>
       <h1>
-        React Application With Own Configuration With Webpack, React and Typescript{" "}
+        React Application With Own Configuration With Webpack, React and
+        Typescript - {process.env.NODE_ENV} {process.env.name}
       </h1>
       <img src={IMAGE} alt="img" style={{ width: "100px", height: "100px" }} />
       {svgContent}
     </>
-  );
+  ); 
 };

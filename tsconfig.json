@@ -12,7 +12,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "types": ["./src/declarations.d.ts"]
+    "types": ["./src/declarations.d.ts", "node"]
   },
   "include": ["src/**/*"]
 }
