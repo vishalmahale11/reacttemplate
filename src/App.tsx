@@ -11,17 +11,17 @@ const svgContent = (
   </svg>
 );
 
-export const App = () => { 
+export const App = () => {
   return (
     <>
+      {console.log(process.env.name)}
       <h1>
-       Hello vishak React Application With Own Configuration With Webpack, React and
-        Typescript - {process.env.NODE_ENV} {process.env.name}
+        Hello vishal React Application With Own Configuration With Webpack,
+        React and Typescript - {process.env.NODE_ENV} {process.env.name}
       </h1>
       <img src={IMAGE} alt="img" style={{ width: "100px", height: "100px" }} />
       {svgContent}
-      <ClickCounter /> 
+      <ClickCounter />
     </>
   );
 };
- 
